@@ -1,6 +1,7 @@
 ## jq
 
 GitHub: https://github.com/jqlang/jq
+
 Homepage: https://jqlang.github.io/jq/
 
 ## Description

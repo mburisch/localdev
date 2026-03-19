@@ -1,6 +1,7 @@
 ## helix
 
 GitHub: https://github.com/helix-editor/helix
+
 Homepage: https://helix-editor.com
 
 ## Description

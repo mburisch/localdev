@@ -1,6 +1,7 @@
 ## yazi
 
 GitHub: https://github.com/sxyazi/yazi
+
 Homepage: https://yazi-rs.github.io
 
 ## Description
