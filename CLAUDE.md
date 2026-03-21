@@ -18,3 +18,4 @@ This is a documentation repository cataloging local development CLI tools. Each 
 - Each file starts with the tool name as an h2 heading, followed by its GitHub link
 - Description and example blocks are optional but encouraged
 - Examples use fenced bash code blocks with comments explaining each command
+- When adding or removing a tool update the README.md file as well
