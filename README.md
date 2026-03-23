@@ -12,6 +12,7 @@ General-purpose CLI utilities.
 | [btop](tools/btop.md) | Resource monitor for CPU, memory, disks, and network |
 | [colima](tools/colima.md) | Container runtimes on macOS with minimal setup |
 | [dust](tools/dust.md) | A more intuitive version of `du` with visual tree output |
+| [eza](tools/eza.md) | Modern replacement for `ls` with Git integration and tree views |
 | [fd](tools/fd.md) | Fast, user-friendly alternative to `find` |
 | [fzf](tools/fzf.md) | General-purpose fuzzy finder |
 | [gh](tools/gh.md) | GitHub CLI |
