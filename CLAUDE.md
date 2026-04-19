@@ -10,7 +10,8 @@ This is a documentation repository cataloging local development CLI tools. Each 
 
 - `tools/` — General-purpose CLI tools (bat, btop, fd, fzf, ripgrep, yazi, etc.)
 - `coding/` — Development-focused tools (biome, bun, ruff, uv, etc.)
-- `terminal/` — Terminal emulators and shell config (ghostty, zsh, cmux)
+- `terminal/` — Terminal emulators and shell config (ghostty, zsh, cmux); may contain companion config subdirs alongside the `.md` file
+- `agents/` — Actual scripts/assets (not tool docs), e.g. `agents/claude/statusline-command.sh`
 
 ## Conventions
 
@@ -18,5 +19,4 @@ This is a documentation repository cataloging local development CLI tools. Each 
 - Each file starts with the tool name as an h2 heading, followed by its GitHub link
 - Description and example blocks are optional but encouraged
 - Examples use fenced bash code blocks with comments explaining each command
-- The README.md contains references to the tools
-- When pushing to GitHub check that the README.md is up to date
+- When adding or renaming a tool, update the matching category table in `README.md` (Tools / Coding / Terminal) so it stays in sync before pushing
