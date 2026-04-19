@@ -1,6 +1,7 @@
 #!/bin/sh
 input=$(cat)
 cwd=$(echo "$input" | jq -r '.workspace.current_dir')
+model=$(echo "$input" | jq -r '.model.display_name // ""')
 context_limit=$(echo "$input" | jq -r '.context_window.context_window_size // 0')
 context_pct=$(echo "$input" | jq -r '.context_window.used_percentage // 0')
 session_pct=$(echo "$input" | jq -r '.rate_limits.five_hour.used_percentage // 0')
@@ -22,5 +23,6 @@ green='\033[32m'; yellow='\033[33m'; cyan='\033[36m'; reset='\033[0m'
 
 out="${green}${short_cwd}${reset}"
 [ -n "$branch" ] && out="$out ${yellow}(${branch})${reset}"
+[ -n "$model" ] && out="$out ${model}"
 out="$out ${cyan}[$(fmt "$tokens")/$(fmt "$context_limit")] - "$session_pct"%${reset}"
 printf "%b" "$out"
