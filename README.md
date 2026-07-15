@@ -16,6 +16,7 @@ General-purpose CLI utilities.
 | [fd](tools/fd.md) | Fast, user-friendly alternative to `find` |
 | [fzf](tools/fzf.md) | General-purpose fuzzy finder |
 | [gh](tools/gh.md) | GitHub CLI |
+| [git](tools/git.md) | Distributed version control system and recommended global settings |
 | [helix](tools/helix.md) | Post-modern terminal text editor |
 | [jless](tools/jless.md) | Command-line JSON viewer |
 | [jq](tools/jq.md) | Command-line JSON processor |
